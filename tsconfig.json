@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        // "moduleResolution": "node",
+        "baseUrl": "./src",
+        "sourceMap":true,
+        "noImplicitAny": true,
+        "rootDirs": ["src/"]
+    
+    },
+    "include": ["src/**/*", "Day1/**/*"],
+
+
+}
