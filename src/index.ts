@@ -4,6 +4,8 @@ import * as express from 'express';
 import * as cors from "cors";
 import helmet from "helmet"
 
+
+//Simple server
 dotenv.config();
 const app = express();
 

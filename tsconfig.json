@@ -5,6 +5,8 @@
         "baseUrl": "./src",
         "sourceMap":true,
         "noImplicitAny": true,
+        "outDir": "./dist",
+        "target": "ES6",
         "rootDirs": ["src/"]
     
     },
