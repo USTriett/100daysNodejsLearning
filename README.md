@@ -9,6 +9,18 @@
 
 # Day 2 Express Basics
 1. Create simple server with http protocol
-2. Express project architecture
+2. Express project structure:
+  a. Controllers
+   next day
+
+  b. Middlewares
+   next day
+
+  c. Routers:
+      * /abc: handle -> /abc
+      * /ab+c: handles -> /abc or /abbbbbbc or /abbbbbbbbbbbbbbbbbbbbbbbbc,...
+      * /ab?ac: handles -> /aac or abac
+      * /ab*ac: handles ->  /ab + anything + ac
+      * ...
    
    
