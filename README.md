@@ -26,6 +26,7 @@
       * ...
 # Day 3 MVC architecture
 ![ảnh](https://github.com/USTriett/100daysNodejsLearning/assets/115467911/73409fd3-2cad-45e4-a8dc-9edc0512091a)
+
 **Sumary: MVC is an archtecture help emphasizes a separation between the software's business logic and display**
 1. Model:
    * _Model part is used for communicate with data, CRUD(create, read, update, delete) data in DBMS_
