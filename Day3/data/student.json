@@ -1,0 +1,16 @@
+{
+    "students": [
+        {
+        "name": "Triet",
+        "age": 20,
+
+        "hometown": "CanTho"
+        },
+        {
+        "name": "Phat",
+        "age": 20,
+
+        "hometown": "Hue"
+        }
+    ]
+}

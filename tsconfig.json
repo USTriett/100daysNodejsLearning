@@ -7,10 +7,12 @@
         "noImplicitAny": true,
         "outDir": "./dist",
         "target": "ES6",
-        "rootDirs": ["src/"]
+        "rootDirs": ["src/"],
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
     
     },
-    "include": ["src/**/*", "Day1/**/*"],
+    "include": ["src/**/*", "Day3/**/*"],
 
 
 }
