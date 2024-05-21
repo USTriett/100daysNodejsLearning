@@ -24,5 +24,19 @@
       * /ab?ac: handles -> /aac or abac
       * /ab*ac: handles ->  /ab + anything + ac
       * ...
+# Day 3 MVC architecture
+![ảnh](https://github.com/USTriett/100daysNodejsLearning/assets/115467911/73409fd3-2cad-45e4-a8dc-9edc0512091a)
+**Sumary: MVC is an archtecture help emphasizes a separation between the software's business logic and display**
+1. Model:
+   * _Model part is used for communicate with data, CRUD(create, read, update, delete) data in DBMS_
+   * Ex: StudentModel is use for fetch (read) student data in DBMS, Student (id, name, dayofbirth,...), StudentModel(StudentList:Student[], ...) 
+2. View:
+   * Storage the view(UI: can be html) -> render for user when complete fetching data operation
+   * Ex: When StudentModel.fetchStudents() -> return success -> send View to frontend -> update UI on browser 
+3. Controller:
+  * Like a router -> route request from user to corrected Model then send data to View -> View send view filled with data back to Controller -> frontend
+
+**--> Helps us clearly define business processing, data processing and data presentation tasks. Therefore, updating and editing one component does not affect other components**
+
    
    
