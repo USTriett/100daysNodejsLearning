@@ -49,7 +49,7 @@
    * Header: include type and algorithm use to encrypt and decrypt message. There are 2 common algs RSA, HMAC-SHA256(HS256). 
    * Playload: Playload has claims. Claim is a function about an entity (user). There are 3 types of claim: reserve, public, private
       * **Reserve claim**
-      ```
+      ````
       {
     "iss": "jira:1314039",
     "iat": 1300819370,
@@ -65,7 +65,7 @@
        }
       }
 
-      ```
+      ````
    
    
 
