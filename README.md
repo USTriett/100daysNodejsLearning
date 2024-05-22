@@ -39,5 +39,35 @@
 
 **--> Helps us clearly define business processing, data processing and data presentation tasks. Therefore, updating and editing one component does not affect other components**
 
+# Day 4 Implement some pattern and research about JWT
+1. Implement
+   * Singleton pattern using generic type
+   * Factory Pattern
+2. JWT
+   2.1. JSON WEB TOKEN: A JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact and self-contained way to securely transmit information between parties as a JSON object. The information has a digital signature that prove it safe
+   2.2. 3 Components:
+   * Header: include type and algorithm use to encrypt and decrypt message. There are 2 common algs RSA, HMAC-SHA256(HS256). 
+   * Playload: Playload has claims. Claim is a function about an entity (user). There are 3 types of claim: reserve, public, private
+      * **Reserve claim**
+      <code>
+      {
+    "iss": "jira:1314039",
+    "iat": 1300819370,
+    "exp": 1300819380,
+    "qsh": "8063ff4ca1e41df7bc90c8ab6d0f6207d491cf6dad7c66ea797b4614b71922e9",
+    "sub": "batman",
+    "context": {
+        "user": {
+            "userKey": "batman",
+            "username": "bwayne",
+            "displayName": "Bruce Wayne"
+        }
+       }
+      }
+
+      </code>
+   
+   
+
    
    
